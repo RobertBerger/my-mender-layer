@@ -1,0 +1,41 @@
+This README file contains information on the contents of the my-mender-layer layer.
+
+Please see the corresponding sections below for details.
+
+Dependencies
+============
+
+  URI: <first dependency>
+  branch: <branch name>
+
+  URI: <second dependency>
+  branch: <branch name>
+
+  .
+  .
+  .
+
+Patches
+=======
+
+Please submit any patches against the my-mender-layer layer to the xxxx mailing list (xxxx@zzzz.org)
+and cc: the maintainer:
+
+Maintainer: XXX YYYYYY <xxx.yyyyyy@zzzzz.com>
+
+Table of Contents
+=================
+
+  I. Adding the my-mender-layer layer to your build
+ II. Misc
+
+
+I. Adding the my-mender-layer layer to your build
+=================================================
+
+Run 'bitbake-layers add-layer my-mender-layer'
+
+II. Misc
+========
+
+--- replace with specific information about the my-mender-layer layer ---

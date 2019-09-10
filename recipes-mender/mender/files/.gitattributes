@@ -1,0 +1,6 @@
+# encrypt artifact-verify-key.pem
+artifact-verify-key.pem filter=git-crypt diff=git-crypt 
+# encrypt server.crt
+server.crt filter=git-crypt diff=git-crypt
+# Making sure that .gitattributes is never encrypted. DON'T TOUCH THAT LINE AND ONE BELOW
+.gitattributes !filter !diff
